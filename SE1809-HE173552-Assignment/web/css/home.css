@@ -1,0 +1,110 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 3, 2024, 11:03:28 PM
+    Author     : Admin
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF5EE;
+    background-attachment: fixed;
+    overflow-style: move;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    padding-top: 10px;
+}
+.menu ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: green;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+.header{
+    margin: 10px 15px 0 0;
+    float: right;
+}
+
+.header-text{
+    display: flex;
+}
+
+.header-text h1:first-child{
+    font-size: 15px;
+    background-color: #90EE90;
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.header-text h1:last-child{
+    font-size: 15px;
+    background-color: #90EE90;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.content-menu{
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    margin-left: 40px;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo img{
+    width: 10%;
+}
+
+.banner img{
+    width: 300px;
+    border-radius: 10px;
+    top: 0;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+.menu{
+    margin-right: 40px;
+}

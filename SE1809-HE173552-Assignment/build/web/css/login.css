@@ -1,0 +1,58 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Feb 26, 2024, 10:47:29 PM
+    Author     : Admin
+*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Canh giữa theo chiều dọc */
+    height: 100vh; /* Chiều cao tối đa là chiều cao của cửa sổ trình duyệt */
+}
+
+.center-vertical {
+    text-align: center;
+    max-width: 400px; /* Điều chỉnh kích thước tối đa của phần tử để nó không bị căn lề quá lớn */
+    width: 100%; /* Phần tử giữa căn theo chiều ngang */
+}
+
+body{
+    background-image: url(../image/truong-dh-fpt-genz-ao-uoc-duoc-hoc-vi-trai-nghiem-qua-dinh-1-1658310054-910x606.jpeg);
+    background-size: cover;
+}
+
+.register{
+    padding: 10px 5px 10px 5px;
+    background-color: orange;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.register p{
+    margin: 0;
+}
+
+.login{
+    padding: 5px;
+    border: 1px solid #0a53be;
+    border-radius: 10px;
+    backdrop-filter:blur(2px);
+    box-shadow: 0 0 1px gray;
+}
+
+.error01{
+    animation: fade 1s ease;
+}
+
+@keyframes fade{
+    from{
+       opacity: 0; 
+    }
+    to{
+        opacity: 1;
+    }
+}

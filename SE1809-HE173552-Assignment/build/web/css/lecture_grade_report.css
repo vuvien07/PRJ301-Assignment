@@ -1,0 +1,170 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 15, 2024, 11:49:49 PM
+    Author     : Admin
+*/
+.header{
+    display: flex;
+    align-items: center;
+}
+.header h1{
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+    margin-left: 140px;
+}
+
+.header img{
+    width: 15%;
+    margin-right: 160px;
+}
+
+form{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+input[type="submit"]{
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover{
+    background-color: gold;
+}
+
+.lecture_report{
+    display: flex;
+    margin: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    border-style: none;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+.lecture_subject{
+    display: inline-block;
+    min-width: calc(20% - 20px);
+    margin: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 2px rgba(2, 1, 4, 0.2);
+    transition: background-color 0.5s;
+}
+
+.ssss {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.lecture_subject:hover{
+    background-color: #4CAF50;
+}
+
+.group_report {
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng đổ bóng */
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.group_view {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.group_subject {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+}
+
+.group_subject:hover {
+    background-color: #e0e0e0;
+}
+
+.group_name {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.group_grade table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.group_grade table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.group_grade table th, .group_grade table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.group_grade table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.group_grade table td a {
+    color: blue;
+    text-decoration: none;
+}
+
+.group_grade table td a:hover {
+    text-decoration: underline;
+}
+
+.grade_report_detail table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.grade_report_detail table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.grade_report_detail th {
+    background-color: #f2f2f2;
+}
+
+.grade_report_detail td {
+    width: 33.33%; /* Set a fixed width for all cells */
+    padding: 10px;
+    text-align: center;
+}

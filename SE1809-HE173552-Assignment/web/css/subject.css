@@ -1,0 +1,137 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 13, 2024, 8:31:01 PM
+    Author     : Admin
+*/
+.banner{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img{
+    margin-right: 20px;
+    width: 40%;
+}
+
+.banner h1{
+    flex-grow: 1;
+    margin-left: 250px;
+    font-size: 20px;
+}
+
+.training_department {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.tdept {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 2px;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    color: #333;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+.pagination a.current-page {
+    background-color: #333;
+    color: #fff;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+.tdept:hover{
+    background-color: #00BFFF;
+}
+
+.subject {
+    display: flex;
+    margin: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    border-style: none;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+
+
+.course{
+    display: inline-block;
+    min-width: calc(20% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 2px rgba(2, 1, 4, 0.2);
+    transition: background-color 0.5s;
+}
+
+.course:hover{
+    background-color: #00BFFF;
+}
+
+.subject_assesments {
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 5px rgba(0, 0, 1, 0.2);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+td:hover{
+    background-color: #e0e0e0;
+}
+

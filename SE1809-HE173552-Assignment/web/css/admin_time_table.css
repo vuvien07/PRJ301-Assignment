@@ -1,0 +1,103 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 18, 2024, 11:13:33 PM
+    Author     : Admin
+*/
+.admin_timetable1{
+    height: 160vh;
+}
+.banner{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+
+.banner img{
+    margin: 10px;
+    width: 25%;
+}
+
+.banner h2{
+    font-size: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.search{
+    margin-left: 35%;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.listtimetable {
+    margin-top: 20px;
+}
+
+.timetable-table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-left: 35px;
+}
+
+.timetable-table th,
+.timetable-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.timetable-table th {
+    background-color: #ADD8E6;
+}
+
+.timetable-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.timetable-table tr:hover {
+    background-color: #f2f2f2;
+}
+
+input[type="submit"]{
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    transition: background-color 0.3s;
+}

@@ -1,0 +1,119 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 9, 2024, 10:35:41 PM
+    Author     : Admin
+*/
+.header{
+    display: flex;
+    align-items: center;
+}
+.header h1{
+    font-size: 30px;
+    font-family: 'Itim', cursive;
+}
+
+.header img{
+    width: 15%;
+    margin-right: 200px;
+}
+.student_report {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.student_report h1 {
+    color: #333;
+}
+.student_report p {
+    margin: 0;
+}
+.student_report a {
+    color: #007bff;
+    text-decoration: none;
+}
+.student_report a:active {
+    color: #0a58ca;
+    text-decoration: underline;
+}
+
+@keyframes Fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+
+}
+
+form{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+
+input[type="submit"]{
+    margin-top: 10px;
+    padding: 6px 10px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover{
+    background-color: gold;
+}
+
+.student_report {
+    display: flex;
+    margin: 10px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    border-style: none;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+
+
+.student_subject{
+    display: inline-block;
+    min-width: calc(20% - 20px);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 2px rgba(2, 1, 4, 0.2);
+    transition: background-color 0.5s;
+}
+
+.ssss {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    text-align: center;
+}
+
+.student_subject:hover{
+    background-color: greenyellow;
+}
+
+.dropdown-select{
+    display: flex;
+}
+
+span{
+    margin-right: 10px;
+}

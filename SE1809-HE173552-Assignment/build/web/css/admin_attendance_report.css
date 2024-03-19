@@ -1,0 +1,57 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Mar 18, 2024, 11:29:40 PM
+    Author     : Admin
+*/
+body{
+    height: 100vh;
+    overflow-y: scroll;
+}
+.banner{
+    margin-right: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner img{
+    margin-right: 10px;
+    width: 35%;
+}
+
+.banner h2{
+    flex-grow: 1;
+    margin:0;
+    font-size: 20px;
+    margin-left: -20%;
+}
+
+h1, h2 {
+    font-family: 'Itim', cursive;
+    text-align: center;
+    color: #333;
+    font-weight: 200;
+}
+
+.student_subject {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.student_subject p {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.student_subject:hover {
+    background-color: #e0e0e0;
+}
+
